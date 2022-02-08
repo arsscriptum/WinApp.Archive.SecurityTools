@@ -1,0 +1,5 @@
+TARGETNAME=xxxDriver
+TARGETTYPE=DRIVER
+TARGETPATH=.\lib
+INCLUDES=..\...\include\wxp;..\..\include\ddk
+SOURCES=xxx.c

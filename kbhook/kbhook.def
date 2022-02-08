@@ -1,0 +1,12 @@
+; kbhook.def : Declares the module parameters for the DLL.
+
+LIBRARY      "kbhook"
+DESCRIPTION  'KBHook Sample by QSoft'
+
+EXPORTS
+SetKBHook
+GetKeyStrokes
+KillKBHook
+
+SECTIONS
+SharedBlock READ WRITE SHARED
